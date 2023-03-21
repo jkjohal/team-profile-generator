@@ -14,10 +14,28 @@ function generatePage(data){
         <h2>Employee name: ${data.employeeName}</h2>
         <h3>Employee id: ${data.employeeID}</h3>
         <h3>Employee email: ${data.email} </h3>
-        <h3>Employee type: ${employeeType}</h3>
+        <h3>Employee type: ${data.employeeType}</h3>
         <h3>Github: ${data.github}</h3>
-        <h3>School: ${school}</h3>
-        <h3>Office #: ${office}</h3>
+        <h3>School: ${data.school}</h3>
+        <h3>Office #: ${data.office}</h3>
+    </div>
+    <div>
+        <h2>Employee name: ${data.employeeName}</h2>
+        <h3>Employee id: ${data.employeeID}</h3>
+        <h3>Employee email: ${data.email} </h3>
+        <h3>Employee type: ${data.employeeType}</h3>
+        <h3>Github: ${data.github}</h3>
+        <h3>School: ${data.school}</h3>
+        <h3>Office #: ${data.office}</h3>
+    </div>
+    <div>
+        <h2>Employee name: ${data.employeeName}</h2>
+        <h3>Employee id: ${data.employeeID}</h3>
+        <h3>Employee email: ${data.email} </h3>
+        <h3>Employee type: ${data.employeeType}</h3>
+        <h3>Github: ${data.github}</h3>
+        <h3>School: ${data.school}</h3>
+        <h3>Office #: ${data.office}</h3>
     </div>
 </body>
 </html>
