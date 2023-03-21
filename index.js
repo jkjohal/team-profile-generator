@@ -1,3 +1,8 @@
+const fs = require('fs');
+const path = require('path');
+const inquirer = require('inquirer');
+const template = require('./src/page-template')
+
 const questions  = [
     {
         type: 'input',
@@ -27,19 +32,19 @@ const questions  = [
     {
         type: 'input',
         name: 'github',
-        message: "What is the engineer's github username?"
+        message: "What is the employee's github username?"
         
     },
     {
         type: 'input',
         name: 'school',
-        message: "What is the intern's school?"
+        message: "What is the employee's school?"
         
     },
     {
         type: 'input',
         name: 'office',
-        message: "What is the manager's office number?"
+        message: "What is the employee's office number?"
         
     },
 
